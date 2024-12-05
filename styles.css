@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1 {
+  /*Prpiedad que maneja el color */
+  color: #130073;
+  /*Propiedad que maneja el color del fondo */
+  background-color: #ffd700;
+  /*Propiedad que maneja el borde */
+  border: 1px solid red;
+  /* Alinear texto */
+  text-align: center;
+}
