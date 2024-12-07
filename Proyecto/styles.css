@@ -1,0 +1,83 @@
+.navegation {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espacio entre el logo y los enlaces */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center; /* Centra los enlaces */
+  flex-grow: 1; /* Permite que este contenedor ocupe el espacio disponible */
+  gap: 10px; /* Espacio entre los enlaces */
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #ffcc00; /* Cambia el color al pasar el mouse */
+}
+
+.search-container {
+  display: flex; /* Para alinear el input y el botón en línea */
+  margin-left: auto; /* Empuja el contenedor de búsqueda a la derecha */
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px; /* Espacio entre el input y el botón */
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #333; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.search-button:hover {
+  background-color: #555; /* Color de fondo al pasar el mouse */
+}
