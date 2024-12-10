@@ -1,15 +1,88 @@
+/* General Layout Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex; /* Usa Flexbox para colocar sidebar y productos en fila */
+  justify-content: flex-start; /* Alinea los elementos al inicio */
+  min-height: 100vh; /* Para asegurar que la altura mínima sea igual a la altura de la ventana */
+}
+
+.sidebar {
+  width: 300px; /* Ancho fijo del sidebar */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  height: 100vh; /* El sidebar ocupará toda la altura */
+  overflow-y: auto; /* Permite el scroll si hay muchos elementos */
+}
+
+.main-content {
+  flex-grow: 1; /* Deja que el contenido principal ocupe el espacio restante */
+  padding: 20px;
+}
+
+.catalogo {
+  display: grid; /* Usa Grid para organizar los productos en una cuadrícula */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Responsivo: mínimo 200px por columna */
+  gap: 20px;
+}
+
+.producto {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.producto img {
+  width: 100%; /* Asegúrate de que las imágenes ocupen todo el espacio disponible */
+  max-width: 200px;
+  height: auto;
+}
+
+.producto h3 {
+  margin: 10px 0;
+}
+
+.producto .precio {
+  color: #2d2d2d;
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.producto .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Navbar and Search Styling */
 .navegation {
   background-color: aqua;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Espacio entre el logo y los enlaces */
+  justify-content: space-between;
 }
 
 .nav-links {
   display: flex;
-  justify-content: center; /* Centra los enlaces */
-  flex-grow: 1; /* Permite que este contenedor ocupe el espacio disponible */
-  gap: 10px; /* Espacio entre los enlaces */
+  justify-content: center;
+  flex-grow: 1;
+  gap: 10px;
 }
 
 .logo {
@@ -17,11 +90,38 @@
   width: 200px;
 }
 
+.search-container {
+  display: flex;
+  margin-left: auto;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
 footer {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 20px 0;
+  margin-top: 20px;
 }
 
 .footer-content ul {
@@ -54,46 +154,11 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #ffcc00; /* Cambia el color al pasar el mouse */
+  color: #ffcc00;
 }
 
-.search-container {
-  display: flex; /* Para alinear el input y el botón en línea */
-  margin-left: auto; /* Empuja el contenedor de búsqueda a la derecha */
-}
-
-.search-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-right: 5px; /* Espacio entre el input y el botón */
-}
-
-.search-button {
-  padding: 10px 15px;
-  background-color: #333; /* Color de fondo del botón */
-  color: white; /* Color del texto del botón */
-  border: none;
-  border-radius: 4px;
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-}
-
-.search-button:hover {
-  background-color: #555; /* Color de fondo al pasar el mouse */
-}
-
-/* ############################################## */
-
-.sidebar {
-  width: 300px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-right: 1px solid #ddd;
-  height: 100vh;
-  overflow-y: auto;
-}
-
-h2 {
+/* Sidebar styling */
+.sidebar h2 {
   color: #333;
   margin-bottom: 10px;
 }
@@ -132,4 +197,46 @@ ul li a:hover {
   color: #333;
 }
 
-/* https://www.behance.net/gallery/91217035/homedepot?moduleId=834907933&action=moodboard */
+/*####################*/
+/*      Paginador     */
+/*####################*/
+
+/* Estilo general del paginador */
+.paginador {
+  display: flex;
+  justify-content: center; /* Centra el paginador */
+  gap: 10px; /* Espacio entre los botones */
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo de los enlaces de la página */
+.paginador a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.paginador a:hover {
+  background-color: #ddd;
+}
+
+/* Estilo de la página activa */
+.paginador a.activa {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilo de los enlaces "Anterior" y "Siguiente" */
+.paginador a.prev,
+.paginador a.next {
+  font-weight: bold;
+}

@@ -10,14 +10,14 @@
     <div class="header">
       <div class="navegation">
         <div>
-          <img src="/images/logo.png" alt="" class="logo" />
+          <img src="../images/logo.png" alt="" class="logo" />
         </div>
         <div class="nav-links">
-          <a href="/index.html">Inicio</a>
-          <a href="/about/index.html">Nosotros</a>
+          <a href="./index.html">Inicio</a>
+          <a href="../about/index.html">Nosotros</a>
           <a href="../products/index.html">Productos</a>
-          <a href="/services/index.html">Servicios</a>
-          <a href="/contact/index.html">Contacto</a>
+          <a href="../services/index.html">Servicios</a>
+          <a href="../contact/index.html">Contacto</a>
         </div>
         <div class="search-container">
           <input type="text" placeholder="Buscar..." class="search-input" />
@@ -25,86 +25,245 @@
         </div>
       </div>
     </div>
-    <div class="sidebar">
-      <h2>Categories</h2>
-      <details>
-        <summary>Chairs</summary>
+    <div class="main-container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>Categories</h2>
         <ul>
-          <li><a href="#">All</a> <span>(308)</span></li>
-          <li><a href="#">Interior</a> <span>(101)</span></li>
-          <li><a href="#">Office</a> <span>(61)</span></li>
-          <li><a href="#">Rocking chairs</a> <span>(45)</span></li>
-          <li><a href="#">Leather armchairs</a> <span>(85)</span></li>
+          <li><a href="">Rodamientos</a></li>
+          <li><a href="">Carbones</a></li>
+          <li><a href="">Switch</a></li>
+          <li><a href="">Poleas</a></li>
+          <li><a href="">Platineras</a></li>
+          <li><a href="">Interruptor Centrifugos</a></li>
+          <li><a href="">Inducidos</a></li>
+          <li><a href="">Bujes</a></li>
+          <li><a href="">Campos</a></li>
         </ul>
-      </details>
-      <details>
-        <summary>Sofas</summary>
-        <ul>
-          <li><a href="#">Sectionals</a></li>
-          <li><a href="#">Recliners</a></li>
-        </ul>
-      </details>
-      <details>
-        <summary>Beds</summary>
-        <ul>
-          <li><a href="#">Twin</a></li>
-          <li><a href="#">Queen</a></li>
-          <li><a href="#">King</a></li>
-        </ul>
-      </details>
-      <details>
-        <summary>Boards</summary>
-      </details>
-      <details>
-        <summary>Lamps</summary>
-      </details>
-      <details>
-        <summary>Textile</summary>
-      </details>
-      <details>
-        <summary>Decor</summary>
-      </details>
 
-      <h2>Filter by</h2>
-      <div class="filter-section">
-        <label for="price-range">Price</label>
-        <input type="range" id="price-range" min="10" max="1400" step="10" />
-      </div>
+        <h2>Filter by</h2>
+        <div class="filter-section">
+          <label for="price-range">Price</label>
+          <input type="range" id="price-range" min="10" max="1400" step="10" />
+        </div>
 
-      <div class="filter-section">
-        <h3>Materials</h3>
-        <ul>
-          <li><a href="#">Metal</a> <span>(87)</span></li>
-          <li><a href="#">Wood</a> <span>(132)</span></li>
-          <li><a href="#">Leather</a> <span>(56)</span></li>
-          <li><a href="#">Plastic</a> <span>(77)</span></li>
-          <li><a href="#">Fabric</a> <span>(89)</span></li>
-        </ul>
-      </div>
+        <div class="filter-section">
+          <h3>Materials</h3>
+          <ul>
+            <li><a href="#">Metal</a> <span>(87)</span></li>
+            <li><a href="#">Wood</a> <span>(132)</span></li>
+            <li><a href="#">Leather</a> <span>(56)</span></li>
+            <li><a href="#">Plastic</a> <span>(77)</span></li>
+            <li><a href="#">Fabric</a> <span>(89)</span></li>
+          </ul>
+        </div>
 
-      <div class="filter-section">
-        <h3>Brands</h3>
-        <ul>
-          <li><a href="#">Cosmo</a> <span>(43)</span></li>
-          <li><a href="#">Kenneth Cobonpue</a> <span>(103)</span></li>
-          <li><a href="#">La Forma</a> <span>(45)</span></li>
-          <li><a href="#">Like Lodge</a> <span>(46)</span></li>
-          <li><a href="#">Roomers</a> <span>(121)</span></li>
-          <li><a href="#">Seletti</a> <span>(23)</span></li>
-        </ul>
-      </div>
+        <div class="filter-section">
+          <h3>Brands</h3>
+          <ul>
+            <li><a href="#">Cosmo</a> <span>(43)</span></li>
+            <li><a href="#">Kenneth Cobonpue</a> <span>(103)</span></li>
+            <li><a href="#">La Forma</a> <span>(45)</span></li>
+            <li><a href="#">Like Lodge</a> <span>(46)</span></li>
+            <li><a href="#">Roomers</a> <span>(121)</span></li>
+            <li><a href="#">Seletti</a> <span>(23)</span></li>
+          </ul>
+        </div>
 
-      <div class="filter-section">
-        <h3>Colors</h3>
-        <div class="color-options">
-          <span class="color-circle" style="background-color: #d4a373"></span>
-          <span class="color-circle" style="background-color: #6a994e"></span>
-          <span class="color-circle" style="background-color: #bc4749"></span>
-          <span class="color-circle" style="background-color: #577590"></span>
-          <span class="color-circle" style="background-color: #f4a261"></span>
+        <div class="filter-section">
+          <h3>Colors</h3>
+          <div class="color-options">
+            <span class="color-circle" style="background-color: #d4a373"></span>
+            <span class="color-circle" style="background-color: #6a994e"></span>
+            <span class="color-circle" style="background-color: #bc4749"></span>
+            <span class="color-circle" style="background-color: #577590"></span>
+            <span class="color-circle" style="background-color: #f4a261"></span>
+          </div>
         </div>
       </div>
+
+      <!-- Main content with cards -->
+      <div class="main-content">
+        <section id="inicio">
+          <h2>Bienvenido a Nuestro Catálogo</h2>
+          <div class="catalogo">
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Pantalón Jeans"
+              />
+              <h3>Pantalón Jeans</h3>
+              <p class="precio">$30.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Chaqueta de Invierno"
+              />
+              <h3>Chaqueta de Invierno</h3>
+              <p class="precio">$50.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Vestido de Verano"
+              />
+              <h3>Vestido de Verano</h3>
+              <p class="precio">$40.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+              <img
+                src="https://via.placeholder.com/200x200"
+                alt="Camisa Casual"
+              />
+              <h3>Camisa Casual</h3>
+              <p class="precio">$25.00</p>
+              <button class="btn">Comprar</button>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
+    <!-- Paginador -->
+    <div class="paginador">
+      <a href="#" class="prev">&laquo; Anterior</a>
+      <a href="#" class="pagina activa">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#" class="next">Siguiente &raquo;</a>
+    </div>
+
     <footer>
       <div class="footer-content">
         <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
