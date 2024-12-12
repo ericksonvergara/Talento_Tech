@@ -101,8 +101,8 @@ console.log(imprimirAsteriscos());
 
 function imprimirArbol() {
   let arbol = "";
-  for (let i = 1; i <= 6; i++) {
-    for (let j = 1; j <= 6 - i; j++) {
+  for (let i = 1; i <= 10; i++) {
+    for (let j = 1; j <= 10 - i; j++) {
       arbol += " ";
     }
     for (let k = 1; k <= 2 * i - 1; k++) {
@@ -110,7 +110,8 @@ function imprimirArbol() {
     }
     arbol += "\n";
   }
-  return "arbol";
+  console.log(arbol);
+  return "";
 }
 
 console.log(imprimirArbol());

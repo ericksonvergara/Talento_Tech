@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Mi pagina interactiva</h1>
+    <button onclick="enviarAlerta()">ENVIAR ALERTA</button>
+    <hr />
+    <h2>Parrafo cambiante</h2>
+    <p id="parrafo">Este es mi parrafo original</p>
+    <button onclick="cambiarTexto()">cambiar texto</button>
+    <hr />
+    <button id="parrafo2" onclick="cambiarTexto2()"></button>
+    <hr />
+    <button id="parrafo3" onclick="cambiarTexto3()"></button>
+    <hr />
+    <h2>Menu desplegable</h2>
+    <button onclick="mostarMenu()">Mostrar menú</button>
+    <ul id="menu" class="hiden">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ul>
+    <hr />
+    <h2>Formulario</h2>
+    <div>
+      <label>Nombre:</label>
+      <input type="text" id="name" />
+      <label>Correo:</label>
+      <input type="email" id="email" />
+      <label>Telefono</label>
+      <input type="number" id="phone" />
+      <button onclick="validarFormulario()">Enviar</button>
+    </div>
+    <hr />
+    <h2>Contador</h2>
+    <p id="contador">0</p>
+    <button onclick="incrementarContador()">Incrementar</button>
+    <button onclick="decrementarContador()">Decrementar</button>
+  </body>
+</html>
+<script src="app.js"></script>
