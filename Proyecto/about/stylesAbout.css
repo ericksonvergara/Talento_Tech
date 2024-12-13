@@ -81,3 +81,26 @@ footer {
 .search-button:hover {
   background-color: #555; /* Color de fondo al pasar el mouse */
 }
+
+.container_about {
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  gap: 40px;
+}
+
+.image_about {
+  max-width: 100%; /* Asegúrate de que la imagen no exceda el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+  width: 650px; /* Establece el ancho en 300px */
+  height: 500px; /* Establece la altura en 200px */
+  margin-left: 20px;
+}
+
+.text_about {
+  flex: 1; /* Permite que el texto ocupe el espacio restante */
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-right: 60px;
+}
