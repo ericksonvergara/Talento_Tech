@@ -1,10 +1,13 @@
 /* General Layout Styles */
 body {
+  background-color: #A59D84;
   margin: 0;
   font-family: Arial, sans-serif;
+  color: #ECEBDE;
 }
 
 .main-container {
+  background-color: #C1BAA1;
   display: flex; /* Usa Flexbox para colocar sidebar y productos en fila */
   justify-content: flex-start; /* Alinea los elementos al inicio */
   min-height: 100vh; /* Para asegurar que la altura mínima sea igual a la altura de la ventana */
@@ -13,7 +16,7 @@ body {
 .sidebar {
   width: 300px; /* Ancho fijo del sidebar */
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #C1BAA1;
   border-right: 1px solid #ddd;
   height: 100vh; /* El sidebar ocupará toda la altura */
   overflow-y: auto; /* Permite el scroll si hay muchos elementos */
@@ -72,7 +75,7 @@ body {
 
 /* Navbar and Search Styling */
 .navegation {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,7 +86,13 @@ body {
   justify-content: center;
   flex-grow: 1;
   gap: 10px;
+  
 }
+
+/* .link {
+  text-decoration: none;
+  color: #ECEBDE
+} */
 
 .logo {
   height: 200px;
@@ -93,6 +102,7 @@ body {
 .search-container {
   display: flex;
   margin-left: auto;
+  margin-right: 30px;
 }
 
 .search-input {

@@ -10,6 +10,7 @@
   justify-content: center; /* Centra los enlaces */
   flex-grow: 1; /* Permite que este contenedor ocupe el espacio disponible */
   gap: 10px; /* Espacio entre los enlaces */
+  font-family: Arial, sans-serif;
 }
 
 .logo {
@@ -60,6 +61,7 @@ footer {
 .search-container {
   display: flex; /* Para alinear el input y el botón en línea */
   margin-left: auto; /* Empuja el contenedor de búsqueda a la derecha */
+  margin-right: 30px;
 }
 
 .search-input {
@@ -81,17 +83,6 @@ footer {
 .search-button:hover {
   background-color: #555; /* Color de fondo al pasar el mouse */
 }
-
-/* body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        } */
 
 .form-container {
   background: #ffffff;
@@ -163,13 +154,24 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  width: 100%;
+  width: 50%;
   transition: background-color 0.3s;
   grid-column: span 2;
 }
 
 button:hover {
   background-color: #c0392b;
+}
+
+button {
+  font-size: 14px;
+}
+
+.send_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajustar si es necesario */
 }
 
 @media (max-width: 768px) {
@@ -183,10 +185,6 @@ button:hover {
 
   .form-group input,
   .form-group select {
-    font-size: 14px;
-  }
-
-  button {
     font-size: 14px;
   }
 }

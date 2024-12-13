@@ -10,6 +10,7 @@
   justify-content: center; /* Centra los enlaces */
   flex-grow: 1; /* Permite que este contenedor ocupe el espacio disponible */
   gap: 10px; /* Espacio entre los enlaces */
+  font-family: Arial, sans-serif;
 }
 
 .logo {
@@ -60,6 +61,7 @@ footer {
 .search-container {
   display: flex; /* Para alinear el input y el botón en línea */
   margin-left: auto; /* Empuja el contenedor de búsqueda a la derecha */
+  margin-right: 30px;
 }
 
 .search-input {

@@ -21,12 +21,10 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 20px 0;
 }
 
 .footer-content ul {
   list-style-type: none;
-  padding: 0;
 }
 
 .footer-content ul li {
@@ -60,6 +58,7 @@ footer {
 .search-container {
   display: flex; /* Para alinear el input y el botón en línea */
   margin-left: auto; /* Empuja el contenedor de búsqueda a la derecha */
+  margin-right: 30px;
 }
 
 .search-input {

@@ -1,5 +1,5 @@
 .navegation {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   align-items: center;
   justify-content: space-between; /* Espacio entre el logo y los enlaces */
