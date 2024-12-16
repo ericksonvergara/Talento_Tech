@@ -17,3 +17,100 @@ body {
 .navegation {
   background-color: #a59d84 !important;
 }
+
+
+  /***************/
+ /*   FOOTER    */
+/***************/
+
+.footer {
+  background-color: #a59d84;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Iconos en Contacto */
+.contact p::before {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+/* Links e Información */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+/* Promociones */
+.promociones h3 {
+  color: #ecebde;
+}
+
+.promociones p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.register-btn {
+  background-color: #c0392b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-btn:hover {
+  background-color: #45a049;
+}
+
+/* Footer Inferior */
+.footer-bottom {
+  background-color:none;
+  color: black;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1em;
+}

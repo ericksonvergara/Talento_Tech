@@ -80,3 +80,82 @@ footer {
 .search-button:hover {
   background-color: #555; /* Color de fondo al pasar el mouse */
 }
+
+
+
+
+.container_services {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Estilos de cada servicio */
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.service:nth-child(even) {
+  flex-direction: row-reverse; /* Alterna la dirección */
+}
+
+.service img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.service-content {
+  padding: 20px;
+  width: 60%;
+}
+
+.service-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #e73616;
+}
+
+.service-content p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+}
+
+/* Sección ¿Por qué elegirnos? */
+.why-choose-us {
+  /* background-color: #fff3e0; */
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  margin-bottom: 20px;
+  color: #e73616;
+  font-size: 2em;
+}
+
+.why-choose-us p {
+  margin: 10px auto;
+  max-width: 800px;
+  font-size: 1.1em;
+  color: #555;
+  text-align: justify;
+  
+}
+
+.why-choose-us strong {
+  color: #333;
+}

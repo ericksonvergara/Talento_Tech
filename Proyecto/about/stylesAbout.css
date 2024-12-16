@@ -18,31 +18,7 @@
   width: 200px;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
 
-.footer-content ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer-content ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-.footer-content a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-content a:hover {
-  text-decoration: underline;
-}
 
 .social-icons {
   margin-top: 10px;
@@ -94,7 +70,7 @@ footer {
   max-width: 100%; /* Asegúrate de que la imagen no exceda el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   margin-right: 20px; /* Espacio entre la imagen y el texto */
-  width: 650px; /* Establece el ancho en 300px */
+  width: 700px; /* Establece el ancho en 300px */
   height: 500px; /* Establece la altura en 200px */
   margin-left: 20px;
 }
@@ -106,3 +82,11 @@ footer {
   text-align: justify;
   margin-right: 60px;
 }
+
+
+
+
+/* Estilo General del Footer */
+
+
+
