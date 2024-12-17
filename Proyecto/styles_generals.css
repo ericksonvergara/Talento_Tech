@@ -1,13 +1,22 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #d7d3bf;
 }
 
+.logo {
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 190px;
+  width: 190px;
+  
+}
+
 .link {
+  margin-top: 150px;
   text-decoration: none;
   color: #ecebde;
   font-size: 20px;
@@ -16,11 +25,31 @@ body {
 
 .navegation {
   background-color: #a59d84 !important;
+  /* background-color:rgba(184, 75, 2, 0.48); */
+  /* background-image: url('/Proyecto/images/banner.jpg'); */
+  background-size: cover; /* Esto asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Esto centra la imagen */
+  background-repeat: no-repeat; /* Esto evita que la imagen se repita */
 }
 
+/*************************/
+/*    IMAGEN DE INICIO   */
+/*************************/
 
-  /***************/
- /*   FOOTER    */
+.contenedor_image_inicio {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+}
+
+.image_inicio {
+  max-width: 100%;
+  height: auto;
+}
+
+/***************/
+/*   FOOTER    */
 /***************/
 
 .footer {
@@ -108,7 +137,7 @@ body {
 
 /* Footer Inferior */
 .footer-bottom {
-  background-color:none;
+  background-color: none;
   color: black;
   text-align: center;
   padding: 15px 0;

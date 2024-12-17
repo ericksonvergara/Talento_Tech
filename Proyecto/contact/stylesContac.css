@@ -1,21 +1,15 @@
 .navegation {
-  background-color: aqua;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Espacio entre el logo y los enlaces */
+  justify-content: space-between;
 }
 
 .nav-links {
   display: flex;
-  justify-content: center; /* Centra los enlaces */
-  flex-grow: 1; /* Permite que este contenedor ocupe el espacio disponible */
-  gap: 10px; /* Espacio entre los enlaces */
+  justify-content: center;
+  flex-grow: 1;
+  gap: 10px;
   font-family: Arial, sans-serif;
-}
-
-.logo {
-  height: 200px;
-  width: 200px;
 }
 
 footer {
@@ -55,12 +49,12 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #ffcc00; /* Cambia el color al pasar el mouse */
+  color: #ffcc00;
 }
 
 .search-container {
-  display: flex; /* Para alinear el input y el botón en línea */
-  margin-left: auto; /* Empuja el contenedor de búsqueda a la derecha */
+  display: flex;
+  margin-left: auto;
   margin-right: 30px;
 }
 
@@ -68,29 +62,26 @@ footer {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-right: 5px; /* Espacio entre el input y el botón */
+  margin-right: 5px;
 }
 
 .search-button {
   padding: 10px 15px;
-  background-color: #333; /* Color de fondo del botón */
-  color: white; /* Color del texto del botón */
+  background-color: #333;
+  color: white;
   border: none;
   border-radius: 4px;
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  cursor: pointer;
 }
 
 .search-button:hover {
-  background-color: #555; /* Color de fondo al pasar el mouse */
+  background-color: #555;
 }
 
 .form-container {
   background: #ffffff;
   padding: 30px;
-  /* border-radius: 10px; */
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
   max-width: 1200px;
-  /* width: 100%; */
   margin: 0 auto;
 }
 
@@ -171,7 +162,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px; /* Ajustar si es necesario */
+  height: 100px;
 }
 
 @media (max-width: 768px) {

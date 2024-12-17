@@ -1,24 +1,16 @@
 .navegation {
-  background-color: aqua;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Espacio entre el logo y los enlaces */
+  justify-content: space-between;
 }
 
 .nav-links {
   display: flex;
-  justify-content: center; /* Centra los enlaces */
-  flex-grow: 1; /* Permite que este contenedor ocupe el espacio disponible */
-  gap: 10px; /* Espacio entre los enlaces */
+  justify-content: center;
+  flex-grow: 1;
+  gap: 10px;
   font-family: Arial, sans-serif;
 }
-
-.logo {
-  height: 200px;
-  width: 200px;
-}
-
-
 
 .social-icons {
   margin-top: 10px;
@@ -31,12 +23,12 @@
 }
 
 .social-icons a:hover {
-  color: #ffcc00; /* Cambia el color al pasar el mouse */
+  color: #ffcc00;
 }
 
 .search-container {
-  display: flex; /* Para alinear el input y el botón en línea */
-  margin-left: auto; /* Empuja el contenedor de búsqueda a la derecha */
+  display: flex;
+  margin-left: auto;
   margin-right: 30px;
 }
 
@@ -44,49 +36,41 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-right: 5px; /* Espacio entre el input y el botón */
+  margin-right: 5px;
 }
 
 .search-button {
   padding: 10px 15px;
-  background-color: #333; /* Color de fondo del botón */
-  color: white; /* Color del texto del botón */
+  background-color: #333;
+  color: white;
   border: none;
   border-radius: 4px;
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  cursor: pointer;
 }
 
 .search-button:hover {
-  background-color: #555; /* Color de fondo al pasar el mouse */
+  background-color: #555;
 }
 
 .container_about {
-  display: flex; /* Utiliza flexbox para alinear los elementos */
-  align-items: center; /* Alinea verticalmente los elementos al centro */
+  display: flex;
+  align-items: center;
   gap: 40px;
 }
 
 .image_about {
-  max-width: 100%; /* Asegúrate de que la imagen no exceda el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  margin-right: 20px; /* Espacio entre la imagen y el texto */
-  width: 700px; /* Establece el ancho en 300px */
-  height: 500px; /* Establece la altura en 200px */
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+  width: 700px;
+  height: 500px;
   margin-left: 20px;
 }
 
 .text_about {
-  flex: 1; /* Permite que el texto ocupe el espacio restante */
+  flex: 1;
   font-size: 20px;
   line-height: 1.5;
   text-align: justify;
   margin-right: 60px;
 }
-
-
-
-
-/* Estilo General del Footer */
-
-
-

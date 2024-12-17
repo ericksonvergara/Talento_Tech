@@ -1,4 +1,3 @@
-/* General Layout Styles */
 body {
   background-color: #A59D84;
   margin: 0;
@@ -8,31 +7,31 @@ body {
 
 .main-container {
   background-color: #C1BAA1;
-  display: flex; /* Usa Flexbox para colocar sidebar y productos en fila */
-  justify-content: flex-start; /* Alinea los elementos al inicio */
-  min-height: 100vh; /* Para asegurar que la altura mínima sea igual a la altura de la ventana */
+  display: flex; 
+  justify-content: flex-start;
+  min-height: 100vh; 
 }
 
 .sidebar {
-  width: 300px; /* Ancho fijo del sidebar */
+  width: 300px; 
   padding: 20px;
   background-color: #C1BAA1;
   border-right: 1px solid #ddd;
-  height: 100vh; /* El sidebar ocupará toda la altura */
-  overflow-y: auto; /* Permite el scroll si hay muchos elementos */
+  height: 100vh; 
+  overflow-y: auto;
 }
 
 .main-content {
-  flex-grow: 1; /* Deja que el contenido principal ocupe el espacio restante */
+  flex-grow: 1; 
   padding: 20px;
 }
 
 .catalogo {
-  display: grid; /* Usa Grid para organizar los productos en una cuadrícula */
+  display: grid;
   grid-template-columns: repeat(
     auto-fill,
     minmax(200px, 1fr)
-  ); /* Responsivo: mínimo 200px por columna */
+  ); 
   gap: 20px;
 }
 
@@ -45,13 +44,14 @@ body {
 }
 
 .producto img {
-  width: 100%; /* Asegúrate de que las imágenes ocupen todo el espacio disponible */
+  width: 200%;
   max-width: 200px;
   height: auto;
 }
 
 .producto h3 {
   margin: 10px 0;
+  color: black;
 }
 
 .producto .precio {
@@ -73,9 +73,8 @@ body {
   background-color: #0056b3;
 }
 
-/* Navbar and Search Styling */
+
 .navegation {
-  /* background-color: aqua; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,16 +86,6 @@ body {
   flex-grow: 1;
   gap: 10px;
   
-}
-
-/* .link {
-  text-decoration: none;
-  color: #ECEBDE
-} */
-
-.logo {
-  height: 200px;
-  width: 200px;
 }
 
 .search-container {
@@ -211,16 +200,16 @@ ul li a:hover {
 /*      Paginador     */
 /*####################*/
 
-/* Estilo general del paginador */
+
 .paginador {
   display: flex;
-  justify-content: center; /* Centra el paginador */
-  gap: 10px; /* Espacio entre los botones */
+  justify-content: center;
+  gap: 10px; 
   margin-top: 20px;
   font-family: Arial, sans-serif;
 }
 
-/* Estilo de los enlaces de la página */
+
 .paginador a {
   text-decoration: none;
   padding: 10px 15px;
@@ -233,19 +222,19 @@ ul li a:hover {
   transition: background-color 0.3s ease;
 }
 
-/* Efecto al pasar el mouse */
+
 .paginador a:hover {
   background-color: #ddd;
 }
 
-/* Estilo de la página activa */
+
 .paginador a.activa {
   background-color: #007bff;
   color: white;
   font-weight: bold;
 }
 
-/* Estilo de los enlaces "Anterior" y "Siguiente" */
+
 .paginador a.prev,
 .paginador a.next {
   font-weight: bold;
