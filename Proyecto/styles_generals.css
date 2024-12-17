@@ -12,7 +12,6 @@ body {
   margin-left: 5px;
   height: 190px;
   width: 190px;
-  
 }
 
 .link {
@@ -27,9 +26,9 @@ body {
   background-color: #a59d84 !important;
   /* background-color:rgba(184, 75, 2, 0.48); */
   /* background-image: url('/Proyecto/images/banner.jpg'); */
-  background-size: cover; /* Esto asegura que la imagen cubra todo el contenedor */
-  background-position: center; /* Esto centra la imagen */
-  background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*************************/
@@ -37,10 +36,10 @@ body {
 /*************************/
 
 .contenedor_image_inicio {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  align-items: center; 
-  height: 100vh; 
+  align-items: center;
+  height: 100vh;
 }
 
 .image_inicio {
